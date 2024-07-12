@@ -1,0 +1,120 @@
+{
+    "main": {
+        "app_name": "Legendary Armory Viewer",
+        "loading": "Loading...",
+        "apply": "Apply",
+        "cancel": "Cancel",
+        "dark_mode": "Toggle dark mode"
+    },
+    "info": {
+        "title": "Info",
+        "legal_title": "Legal notice",
+        "legal_text": "© ArenaNet LLC. All rights reserved. NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, and Guild Wars 2: Secrets of the Obscure and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation."
+    },
+    "settings": {
+        "title": "Settings",
+        "api_key": {
+            "title": "Guild Wars 2 Api Key",
+            "permissions": "Permissions needed: account, unlocks, inventories, characters",
+            "get": "Get Api Key here",
+            "pattern": "Invalid Guild Wars 2 Api Key format!"
+        },
+        "other": {
+            "title": "Other",
+            "show_aquatic": "Show info about aquatic items",
+            "show_inventory": "Show info about items in invetory"
+        }
+    },
+    "detail": {
+        "empty": "Select any Legendary item\nto view details here",
+        "error": "Failed to load detail information. This probably means that your Guild Wars 2 Api Key is not set or that it has insufficient permissions. Please check Settings.",
+        "usable": {
+            "title": "Equipment\nAvailable",
+            "desc": "Shows the number of non-legendary equipped items which you can replace with a legendary item you already own"
+        },
+        "needed": {
+            "title": "Equipment\nAcquire",
+            "desc": "Shows the number of non-legendary equipped items for which you don't currently own a legendary replacement"
+        },
+        "used": {
+            "title": "Equipment\nUsed",
+            "desc": "Shows the number of times legendary items are currently equipped"
+        },
+        "inventory": {
+            "title": "Inventory\nNon-legendary",
+            "desc": "Shows the number of non-legendary bound items in inventories"
+        },
+        "terrestrial": "Terrestrial",
+        "aquatic": "Aquatic"
+    },
+    "type": {
+        "unknown": "Unknown",
+        "armor": {
+            "light": {
+                "title": "Light Armor",
+                "helm": "Light Helm",
+                "shoulders": "Light Shoulders",
+                "gloves": "Light Gloves",
+                "coat": "Light Coat",
+                "leggings": "Light Leggings",
+                "boots": "Light Boots"
+            },
+            "medium": {
+                "title": "Medium Armor",
+                "helm": "Medium Helm",
+                "shoulders": "Medium Shoulders",
+                "gloves": "Medium Gloves",
+                "coat": "Medium Coat",
+                "leggings": "Medium Leggings",
+                "boots": "Medium Boots"
+            },
+            "heavy": {
+                "title": "Heavy Armor",
+                "helm": "Heavy Helm",
+                "shoulders": "Heavy Shoulders",
+                "gloves": "Heavy Gloves",
+                "coat": "Heavy Coat",
+                "leggings": "Heavy Leggings",
+                "boots": "Heavy Boots"
+            }
+        },
+        "weapon": {
+            "title_eachhand": "One-handed weapons \n (Each hand)",
+            "title_singlehand": "One-handed weapons \n (Single hand)",
+            "title_twohand": "Two-handed\nweapons",
+            "title_aquatic": "Aquatic\nweapons",
+            "axe": "Axe",
+            "dagger": "Dagger",
+            "mace": "Mace",
+            "pistol": "Pistol",
+            "sword": "Sword",
+            "scepter": "Scepter",
+            "focus": "Focus",
+            "shield": "Shield",
+            "torch": "Torch",
+            "warhorn": "Warhorn",
+            "greatsword": "Greatsword",
+            "hammer": "Hammer",
+            "longbow": "Long Bow",
+            "rifle": "Rifle",
+            "shortbow": "Short Bow",
+            "staff": "Staff",
+            "harpoon": "Spear",
+            "speargun": "Harpoon Gun",
+            "trident": "Trident"
+        },
+        "upgrade": {
+            "title": "Upgrades",
+            "rune": "Rune",
+            "sigil": "Sigil"
+        },
+        "trinket": {
+            "title": "Trinkets",
+            "relic": "Relic",
+            "back": "Back Item",
+            "accessory": "Accessory",
+            "amulet": "Amulet",
+            "ring": "Ring"
+        }
+    }
+}
