@@ -1,3 +1,8 @@
+import assetEquipUpgrade from "@/assets/equipment_upgrade.png";
+import assetEquipLocked from "@/assets/equipment_locked.png";
+import assetEquipment from "@/assets/equipment.png";
+import assetInventory from "@/assets/inventory.png";
+
 export default class LavCountInfo {
 
     static Type = {
@@ -65,25 +70,25 @@ export default class LavCountInfo {
             case LavCountInfo.Type.Usable:
                 this.nameRes = "detail.usable.title";
                 this.descRes = "detail.usable.desc";
-                this.icon = "/src/assets/equipment_upgrade.png";
+                this.icon = assetEquipUpgrade;
                 this.accentColor = "darkorange";
                 break;
             case LavCountInfo.Type.Needed:
                 this.nameRes = "detail.needed.title";
                 this.descRes = "detail.needed.desc";
-                this.icon = "/src/assets/equipment_locked.png";
+                this.icon = assetEquipLocked;
                 this.accentColor = "darkred";
                 break;
             case LavCountInfo.Type.Used:
                 this.nameRes = "detail.used.title";
                 this.descRes = "detail.used.desc";
-                this.icon = "/src/assets/equipment.png";
+                this.icon = assetEquipment;
                 this.accentColor = "darkgreen";
                 break;
             case LavCountInfo.Type.Inventory:
                 this.nameRes = "detail.inventory.title";
                 this.descRes = "detail.inventory.desc";
-                this.icon = "/src/assets/inventory.png";
+                this.icon = assetInventory;
                 this.accentColor = "darkgray";
                 break;
         }
