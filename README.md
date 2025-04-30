@@ -1,6 +1,9 @@
 # Guild Wars 2 Legendary Armory Viewer for Web
 Single-page Web application for viewing your Guild Wars 2 legendary items usage information. Application is developed with Vue.js.
 
+## Latest version live
+[https://gw2lav.yantti.cz](https://gw2lav.yantti.cz)
+
 ## Build
 ### Prerequisites
 Install Node.js
